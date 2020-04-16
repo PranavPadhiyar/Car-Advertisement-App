@@ -1,0 +1,88 @@
+public class UserProfile{
+  String FirstName;
+  String LastName;
+  Int ProfileID;
+  
+  public void RecordDrive(){
+  }
+  
+  public void ValidateCampaign(){
+  }
+  
+  public void CalculatePayout(){
+  }
+}
+
+public class AdCampaign{
+  String Campaign;
+  Int ContactTracker;
+  
+  public void Activate(){
+  }
+  
+  public void Deactivate(){
+  }
+}
+
+public class UniqueContacts{
+  String Name;
+  Int MobileNumber;
+  
+  public void viewContactDetails(){
+  }
+}
+
+public class UniqueContacts{
+  Image Picture;
+  
+  public void TakePicture(){
+  }
+  
+  public void ScanQRCode(){
+  }
+}
+
+public class UniqueContacts{
+  String Name;
+  Int MobileNumber;
+  
+  public void viewContactDetails(){
+  }
+}
+
+public class Vehicle{
+  String Make;
+  Int Model;
+  Int Year;
+  String Colour;
+  
+  public void RecordVehicle(){
+  }
+}
+
+public class Mileage{
+  Double startingPoint;
+  Double endingPoint;
+  
+  public void RecordMileage(){
+  }
+}
+
+public class Payout{
+  String Campaign;
+  Int km;
+  Int Amount;
+  
+  public void ReceivePayout(){
+  }
+} 
+
+public class Membership{
+  Date startDate;
+  Date endDate;
+  ID id;
+  String status;
+  
+  public void viewMembershipDetails(){
+  }
+} 
